@@ -7,7 +7,24 @@
     <style>
         body { font-family: sans-serif; text-align: center; padding: 20px; }
         .logo-container { display: flex; justify-content: center; margin-bottom: 20px; }
-        .btn { display: inline-block; background: #000000; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px; }
+        
+        /* বাটনের ডিজাইন */
+        .btn { 
+            display: inline-block; 
+            background: #000000; 
+            color: white; 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            margin: 10px;
+            transition: background 0.3s ease; /* স্মুথ কালার পরিবর্তনের জন্য */
+        }
+        /* হোভার ইফেক্ট */
+        .btn:hover { 
+            background: #FF4500; /* মাউস নিলে এই কালার হবে */
+        }
+
         .secondary-btn { display: inline-block; background: #f0f0f0; color: #333; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 14px; margin: 5px; border: 1px solid #ccc; }
         .footer { margin-top: 40px; font-size: 12px; color: #888; }
     </style>
