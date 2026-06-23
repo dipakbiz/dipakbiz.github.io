@@ -2,13 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me | DIPAKBIZ</title>
-    <style>body { font-family: sans-serif; padding: 40px 20px; text-align: center; }</style>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.4; max-width: 600px; margin: auto; }
+        
+        /* সার্ভিস বর্ণনা */
+        .service-desc { margin-bottom: 20px; color: #333; font-style: italic; }
+
+        /* কন্টাক্ট ইনফোর শিরোনাম */
+        .contact-heading { font-weight: bold; font-size: 20px; margin-bottom: 10px; }
+
+        /* আপনার ইনফরমেশন বক্স */
+        .info-box { background: #f4f4f4; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+        .info-box p { margin: 5px 0; font-size: 16px; }
+        
+        /* ফর্মের শিরোনাম */
+        .form-heading { font-weight: bold; margin-bottom: 10px; font-size: 18px; }
+
+        /* ফর্মের স্টাইল */
+        form { display: flex; flex-direction: column; gap: 10px; text-align: left; }
+        label { font-weight: bold; }
+        input, textarea { padding: 8px; border: 1px solid #ccc; border-radius: 4px; width: 100%; box-sizing: border-box; }
+        button { background-color: #000080; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; margin-top: 10px; }
+        button:hover { background-color: #FF4500; }
+    </style>
 </head>
 <body>
-    <h1>Get In Touch</h1>
-    <p>If you are looking for professional SEO assistance or have any inquiries, feel free to contact me.</p>
-    <p><strong>Email:</strong> info@dipak.biz</p>
+    
+    <div class="service-desc">
+        Need expert help with Website Audits, On-Page, Off-Page SEO, or Keyword Research to grow your organic traffic? I am here to help you achieve your digital goals.
+    </div>
+
+    <div class="contact-heading">Contact Information</div>
+    
+    <div class="info-box">
+        <p><strong>Name:</strong> Dipak Biz</p>
+        <p><strong>Profession:</strong> SEO Specialist</p>
+        <p><strong>Email:</strong> contact@dipak.biz </p>
+        <p><strong>Mobile:</strong> +8801711739840 </p>
+    </div>
+
+    <div class="form-heading">Send me a message</div>
+
+    <form action="https://formspree.io/f/আপনার-ফর্ম-আইডি" method="POST">
+        <label>Your Name:</label>
+        <input type="text" name="name" required>
+        
+        <label>Your Email:</label>
+        <input type="email" name="email" required>
+        
+        <label>Your Mobile Number:</label>
+        <input type="tel" name="phone">
+        
+        <label>Message:</label>
+        <textarea name="message" rows="5" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
     <a href="index.html">← Back to Home</a>
 </body>
 </html>
