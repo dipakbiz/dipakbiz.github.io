@@ -2,76 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dipak Biz | SEO Specialist</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 20px; line-height: 1.6; }
-        .logo-container { display: flex; justify-content: center; margin-bottom: 20px; }
-        
-        /* বাটনের ডিজাইন */
-        .btn { 
-            display: inline-block; 
-            background: #000000; 
-            color: white; 
-            padding: 12px 25px; 
-            text-decoration: none; 
-            border-radius: 5px; 
-            font-weight: bold; 
-            margin: 10px;
-            transition: background 0.3s ease;
-        }
+        body { font-family: sans-serif; text-align: center; padding: 40px 20px; line-height: 1.6; }
+        .logo-container { display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 30px; }
+        .btn { display: inline-block; background: #000; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 8px; width: 140px; }
         .btn:hover { background: #FF4500; }
-
-        .secondary-btn { display: inline-block; background: #f0f0f0; color: #333; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 14px; margin: 5px; border: 1px solid #ccc; }
-        .secondary-btn:hover { border-color: #FF4500; }
-        
-        .footer { 
-            margin-top: 40px; 
-            font-size: 14px; 
-            color: #333; 
-            font-weight: 500;
-            border-top: 1px solid #FF4500; 
-            padding-top: 20px;
-        }
+        .main-link { margin-top: 30px; font-weight: bold; }
+        .main-link a { color: #FF4500; text-decoration: none; }
+        /* কপিরাইট অংশের স্টাইল - লোগোর রঙ অনুযায়ী */
+        .copyright { margin-top: 50px; font-size: 0.9em; border-top: 1px solid #eee; padding-top: 20px; font-weight: 700; }
+        .copy-black { color: #000000; }
+        .copy-orange { color: #FF4500; }
     </style>
 </head>
 <body>
 
-    <!-- লোগো সেকশন -->
+    <!-- Logo Section -->
     <div class="logo-container">
-        <div style="display: flex; align-items: center; gap: 12px; font-family: sans-serif; padding: 10px 0;">
-            <div style="background-color: #000080; color: #ffffff; width: 45px; height: 45px; display: flex; justify-content: center; align-items: center; font-weight: 800; font-size: 24px; border-radius: 6px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">D</div>
-            <div style="font-size: 28px; font-weight: 700; letter-spacing: 0.5px;">
-                <span style="color: #000000;">DIPAK</span><span style="color: #FF4500;">BIZ</span>
-            </div>
+        <div style="background-color: #000080; color: #ffffff; width: 45px; height: 45px; display: flex; justify-content: center; align-items: center; font-weight: 800; font-size: 24px; border-radius: 6px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">D</div>
+        <div style="font-size: 28px; font-weight: 700; letter-spacing: 0.5px;">
+            <span style="color: #000000;">DIPAK</span><span style="color: #FF4500;">BIZ</span>
         </div>
     </div>
 
     <h1>Welcome to My Professional Space</h1>
-    <p>I am an SEO specialist. I am new to this industry and dedicated to helping businesses rank higher on search engines through modern and effective SEO strategies.</p>
+    <p>I am Dipak Biz, an SEO specialist and digital content strategist.</p>
     
-    <h3>My Services</h3>
-    <p>Technical SEO Auditing | Content Strategy & Optimization | Keyword Research & Analysis</p>
-
-    <br>
-    <a href="mailto:contact@dipak.biz" class="btn">Get In Touch</a>
-    
-    <div style="margin-top: 30px;">
-        <p>Explore more:</p>
-        <a href="portfolio.html" class="secondary-btn">My Portfolio</a>
-        <a href="blog.html" class="secondary-btn">Blog</a>
-        <a href="about.html" class="secondary-btn">About</a>
-        <a href="services.html" class="secondary-btn">Services</a>
-        <a href="contact.html" class="secondary-btn">Contact</a>
-        <a href="privacy.html" class="secondary-btn">Privacy Policy</a>
-        <a href="https://wa.me/+8801711739840" class="secondary-btn">WhatsApp</a>
+    <div>
+        <a href="about.html" class="btn">About Me</a>
+        <a href="services.html" class="btn">Services</a>
+        <a href="portfolio.html" class="btn">Portfolio</a>
+        <a href="blog.html" class="btn">Blog</a>
+        <a href="contact.html" class="btn">Contact</a>
+        <a href="privacy.html" class="btn">Privacy Policy</a>
     </div>
 
-    <p class="footer">
-        &copy; 2026 
-        <span style="color: #000000; font-weight: bold;">DIPAK</span><span style="color: #FF4500; font-weight: bold;">BIZ</span>. 
-        All rights reserved.
-    </p>
+    <div class="main-link">
+        <p>Visit my official website: <a href="https://dipak.biz" target="_blank">dipak.biz</a></p>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="copyright">
+        &copy; 2026 <span class="copy-black">DIPAK</span><span class="copy-orange">BIZ</span>. All rights reserved.
+    </div>
 
 </body>
 </html>
